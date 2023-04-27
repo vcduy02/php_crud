@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    justify-content: center;
+}
+ul, h4, p{
+    margin-bottom: 0;
+}
+.container{
+    max-width: 1200px;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9990;
+    background-color: white;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    height: 40px;
+    padding: 5px 0;
+}
+.find-login{
+    display: flex;
+    align-items: center;
+}
+.find-login .fa-search{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 6px;
+    opacity: 70%;
+}
+.find-login input{
+    border-radius: 10px;
+    height: 25px;
+}
+.find-login input[type="search" i] {
+    padding: 3px 0;
+    padding-left: 25px;
+    font-size: 12px;
+}
+.find-login [type="Search"]{
+    outline-offset: 0;
+}
+.user{
+    margin: 0 10px;
+    padding: 0 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: red;
+}
+.in-user{
+    color: red;
+}
+.find-login .fa-user{
+    color: black;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.shop{
+    display: flex;
+}
+.find-login .fa-shopping-cart{
+    color: black;
+    transform: rotateY(180deg);
+}
+.number{
+    top: 8px;
+    position: absolute;
+    z-index: 20;
+    background: #ea1c00;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    font-size: 7px;
+    line-height: 14px;
+}
+.nav-top{
+    background: rgb(0, 0, 0);
+}
+.ul1{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.ul1 img{
+    height: 20px;
+}
+.ul1 li{
+    padding: 3px 15px;
+}
+.ul1 li a{
+    color: white;
+    font-size: 13px;
+}
+.ul1 span{
+    color: white;
+}
+.ul1 li:hover{
+    background-color: rgb(66, 58, 58);
+}
+.submenu{
+    display: none;
+}
+.ul1 li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgb(66, 58, 58);
+    margin-top: 3.5px;
+    margin-left: -15px;
+    z-index: 9999;
+}
+.ul1 li:hover .submenu li{
+    width: 170px;
+    padding: 5px 10px;
+    margin-left: -20px;
+    text-align: left;
+}
+.ul1 li:hover .submenu li a:hover{
+    color: green;
+}
+.nav-end{
+    background-color: rgb(255, 255, 255);
+}
+.header-end{
+    display: flex;
+    padding: 5px 0;
+    justify-content: center;
+}
+.header-end a{
+    width: 170px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color: rgb(0, 211, 0);
+    font-size: 10px;
+    border: 1px solid rgb(0, 211, 0);
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.header-end a .fas{
+    margin-right: 5px;
+}
+.header-end a:hover{
+    background-color: red;
+    color: white;
+}
+
+/* FOOTER */
+.main-late{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.main-late h6{
+    color: white;
+}
+.form-late{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-late input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    font-size: 13px;
+}
+.form-late p{
+    background: red;
+    padding: 5px 20px;
+    color: white;
+    font-size: 13px;
+}
+.post-footer{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.line{
+    border: 1px solid red;
+    width: 50px;
+    opacity: 100%;
+    background-color: red;
+    margin: 5px 0;
+}
+.in-footer a{
+    color: black;
+    font-size: 13px;
+}
+.in-footer a img{
+    margin-top: 10px;
+    height: 30px;
+}
+footer{
+    margin-top: 20px;
+    background-color: white;
+}
+.infor{
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+.infor .container{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    display: flex;
+    margin-bottom: 10px;
+}
+.social a img{
+    width: 20px;
+    margin-right: 5px;
+    object-fit: scale-down;
+}
+.social a{
+    color: white;
+    font-size: 13px;
+}
+.infor-footer{
+    font-size: 13px;
+}
+.infor-footer1 a img{
+    height: 50px;
+}
